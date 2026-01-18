@@ -1,42 +1,66 @@
-<!DOCTYPE html>
-<html lang="fr">
+<!doctype html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Applications webs </title>
-
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio firas moussa</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <h1>le classement mondial des applications <br/> plus telechargees en 2023 *  </h1>
-    <table border="1" celpadding="10" cellspacing="0">
-            <tr>
-            <th>instagram (696 Millions)
+<div class="main-container">
+<div class="aside ">
+    <div class="logo">
+        <a href="#"><span>F</span>iras</a>
+     </div>
 
-             <a href="pages/instagram.html"> 
-                <img src="images/instagram.jpg" width="100" alt="Instagram">
-                </a>
-                </th>
-            <th>tiktok (654 Millions)
-             <a href="pages/tiktok.html">
-                    <img src="images/tiktok.jpg" width="100" alt="TikTok">
-                </a>
-            </th>
-            <th>facebook(644 Millions)
-               <a href="pages/facebook.html" >
-                    <img src="images/facebook.jpg" width="100" alt="Facebook">
-                </a>
-            </th>
-            <th>whatsapp (500 Millions)
-            <a href="pages/whatsapp.html">
-                    <img src="images/whatsapp.jpg" width="100" alt="WhatsApp">
-                </a>
-            </th>
-            <th>capcut (477 Millions)
-            <a href="pages/capcut.html">
-                    <img src="images/capcut.jpg" width="100" alt="CapCut">
-                </a>
-            </th>
-                </tr>
+    <ul class="nav">
+        <li><a href="index.html" class="active"><i class="fa fa-home"></i>Home</a></li>
+        <li><a href="Html/about/about.html"><i class="fa fa-user"></i>A propos de moi</a></li>
+        <li><a href="Html/services/service.html"><i class="fa fa-list"></i>Services</a></li>
+        <li><a href="Html/portfolio/portfolio.html"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+        <li><a href="Html/contact/contact.html"><i class="fa fa-comments"></i>Contact</a></li>
+        <li><a href="Html/quiz/quiz.html"><i class="fa fa-question-circle"></i>Quiz</a></li>
+    </ul>
+</div>
+    <div class="main-content">
+        <section class="home-section">
+            <div class="container">
+                 <div class="row">
+                        <div class="home-info">
+                                 <h3 class="hello">
+                                        Bonjour , je m'appelle <span>Moussa Firas</span>
+                                 </h3>
+                    <h3 class="my-profession"> je suis <span class ="typing">Frontend developpeur</span></h3>
 
-    </table>      
-       
+                <p> je suis un etudiant en 1 ere annee
+                    cycle ingenieur en genie informatique à l'institut internationnal des technologies
+                de Sfax</p>
+                    <a href="Html/contact/contact.html" class="btn hire-me">En savoir plus sur moi </a>
+                </div>
+                <div class="home">
+                <div class="home-img">
+                    <img src="Html/portfolio/images/firas moussa.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        </div>
+        </section>
+
+
+
+    </div>
+</div>
+<script>
+var typed = new Typed(".typing", {
+strings: ["Frontend developpeur"],
+typeSpeed: 200,
+backSpeed: 200,
+loop: true
+});
+</script>
+</body>
+</html>
